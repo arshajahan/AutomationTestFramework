@@ -23,7 +23,7 @@ public class BaseClass {
 	@BeforeMethod
 	public void setup(String browser) throws IOException {
 		if(browser.equals("chrome")) {
-			WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else

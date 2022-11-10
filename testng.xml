@@ -13,8 +13,8 @@
   <test thread-count="5" name="Test2">
   <parameter name="browser" value="chrome"></parameter>
     <classes>
-      	<class name="testCases.TestCase1"/>
-	 	<class name="testCases.TestCase2"/>
+      	<!-- <class name="testCases.TestCase1"/>
+	 	<class name="testCases.TestCase2"/> -->
       	<class name="testCases.TestCase3"/>
     </classes>
   </test> <!-- Test -->
