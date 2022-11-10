@@ -25,6 +25,7 @@ public class TestCase1 extends BaseClass{
 		Thread.sleep(2000);
 		driverUtils.doubleClick(driver, pp.getPlusBtn());
 		pp.addCartClk();
+		Thread.sleep(3000);
 		driverUtils.acceptAlert(driver);
 	}
 	

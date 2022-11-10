@@ -1,6 +1,5 @@
 package testCases;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import genericLib.BaseClass;

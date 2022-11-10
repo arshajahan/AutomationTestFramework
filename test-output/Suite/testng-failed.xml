@@ -11,6 +11,20 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TestCase3 -->
+      <class name="testCases.TestCase2">
+        <methods>
+          <include name="tc2"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TestCase2 -->
+      <class name="testCases.TestCase1">
+        <methods>
+          <include name="tc1"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TestCase1 -->
     </classes>
   </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->
